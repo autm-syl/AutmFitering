@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutmFitering_Example' do
+  pod 'AutmFitering', :path => '../'
+
+  target 'AutmFitering_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
