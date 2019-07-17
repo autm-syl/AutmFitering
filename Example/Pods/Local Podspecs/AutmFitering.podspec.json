@@ -1,0 +1,26 @@
+{
+  "name": "AutmFitering",
+  "version": "0.1.0",
+  "summary": "A short description of AutmFitering.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sylvanas/AutmFitering",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sylvanas": "lecuong.bka@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sylvanas/AutmFitering.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AutmFitering/Classes/**/*",
+  "resources": [
+    "AutmFitering/Classes/**/*.xib",
+    "AutmFitering/**/*.xcassets"
+  ]
+}

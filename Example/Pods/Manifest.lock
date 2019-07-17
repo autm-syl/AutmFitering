@@ -1,0 +1,16 @@
+PODS:
+  - AutmFitering (0.1.0)
+
+DEPENDENCIES:
+  - AutmFitering (from `../`)
+
+EXTERNAL SOURCES:
+  AutmFitering:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutmFitering: dbadbcdb4cf61c8a05c0d4d1af0c9161b92ff695
+
+PODFILE CHECKSUM: 064339747ed085f9ff024f3fb4c01ab71109965a
+
+COCOAPODS: 1.5.3

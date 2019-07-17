@@ -1,5 +1,4 @@
 import XCTest
-import AutmFitering
 
 class Tests: XCTestCase {
     

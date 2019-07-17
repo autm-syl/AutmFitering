@@ -1,0 +1,6 @@
+framework module AutmFitering {
+  umbrella header "AutmFitering-umbrella.h"
+
+  export *
+  module * { export * }
+}
