@@ -7,224 +7,241 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035B2A09FD5DE1A6DBB2A3ED8AB2365C /* AutmFilteringViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC467F640FDDA19731F06209D90828E /* AutmFilteringViewCell.xib */; };
-		06F193DC82AC0D9A5E9B6ACBF81757FE /* AutmFilteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC37896C8D019A5AF908E6B9213D089 /* AutmFilteringViewController.swift */; };
-		0D7B9D7A4D5538DE38AB6BBEA5FA52A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1D97587B24DC25D81EBB47DB28EDAAA7 /* AutmFilteringViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE220CCE903E388F3CC6976A5BEAEA1 /* AutmFilteringViewCell.swift */; };
-		25C1A6BCBB161103DDF5CDAC067A04B4 /* AutmFitering-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD82EAE086C592C4C638C7720E2C1A6 /* AutmFitering-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72250BF2CCFA6F8A1A584CABCBAB6210 /* AutmFilteringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569C200BA3D4A630355665A481EF6204 /* AutmFilteringViewController.xib */; };
-		B71976F556A4EB1E75BA08049E534D07 /* Pods-AutmFitering_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4AECC374FEF396FF0F1FFBF2422FEA /* Pods-AutmFitering_Example-dummy.m */; };
-		E8D92F83809AB774F66FACC829897B3C /* AutmFitering-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E8964C922EBEFC12B619B6EC51ECA7 /* AutmFitering-dummy.m */; };
-		EA411CCA27C62CA6A6AE9D9B216563E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		FFCC8E689327CF7F114F856F1AE09340 /* Pods-AutmFitering_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88E1B8041809CC5684969FC1A6BC4FA /* Pods-AutmFitering_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B5403B89D43D12C35CDE7277B7A223 /* AutmFilteringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86EE8FA55392ADDB45650B0D02F3A3A /* AutmFilteringViewController.xib */; };
+		2B8D617C8C5A420ACD8E6F644CFA8D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		39377E6C7DFE1CF84288F4933D3DD0D8 /* Pods-AutmFitering_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE93C3EB24A014619B08D8890FF80A /* Pods-AutmFitering_Example-dummy.m */; };
+		4128D18BC7EE8BD3CCECCE26B2DBBD2E /* AutmFilteringViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B467554AD8E1B24712EAF209F6061C59 /* AutmFilteringViewCell.xib */; };
+		6FB02EEE060BA902AEA192909060C5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7DD15CDB332F33A7E1226376B12DFB99 /* AutmFitering-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CDFEC5BF47E37488EEDE6ED346ED0C /* AutmFitering-dummy.m */; };
+		A7017EFB415FF8219D38802AEF7DFE87 /* Pods-AutmFitering_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F803A196BE9D526CF47444074BCEE8D4 /* Pods-AutmFitering_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6DEB9C67503857EEE7FFA0804AAD07F /* AutmFilteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F94AC1AEB87929A222B7FF9C15DCB1 /* AutmFilteringViewController.swift */; };
+		D8A42578A003DBD7723E08ED41B12303 /* AutmFitering-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F256D3BC1603FB6C80C5A370803A2BFC /* AutmFitering-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A2C221ECA0B95F2FE04C9AEA35EA90 /* AutmFilteringViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56EEDF238372D2967DBE164595D70E /* AutmFilteringViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EB520D5A98BE8F4BDEF0BD3EE5265AD /* PBXContainerItemProxy */ = {
+		90189B844DC72DDF102CFD8E4255FF01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D76319323AF5CA9C1DF9A448BC6D1CE3;
+			remoteGlobalIDString = AEBD0D0506BA6B61E51E3662335FEF14;
 			remoteInfo = AutmFitering;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0577C50044D01A39AC303E286BBA5263 /* AutmFitering-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutmFitering-prefix.pch"; sourceTree = "<group>"; };
-		0FD82EAE086C592C4C638C7720E2C1A6 /* AutmFitering-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutmFitering-umbrella.h"; sourceTree = "<group>"; };
-		1D3AA46E0893DD0F32A7294F326E850F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DCEB75B5474F3D98B7F35076AC95A57 /* Pods_AutmFitering_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutmFitering_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2324502AE7F79ADF0B6791D4472A9376 /* Pods-AutmFitering_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutmFitering_Example-frameworks.sh"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		450116397B588B5CE639D68BB4018478 /* Pods-AutmFitering_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutmFitering_Example.modulemap"; sourceTree = "<group>"; };
-		557191D9F5ABDE1FE84A4DDE8F30D3F0 /* Pods-AutmFitering_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutmFitering_Example.release.xcconfig"; sourceTree = "<group>"; };
-		569C200BA3D4A630355665A481EF6204 /* AutmFilteringViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AutmFilteringViewController.xib; path = AutmFitering/Classes/AutmFilteringViewController.xib; sourceTree = "<group>"; };
-		59E8964C922EBEFC12B619B6EC51ECA7 /* AutmFitering-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutmFitering-dummy.m"; sourceTree = "<group>"; };
-		71FD4C726AD0850F796D4419A08B52D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7774EE47FAB9AB34707092BB233529E9 /* Pods-AutmFitering_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutmFitering_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7AE220CCE903E388F3CC6976A5BEAEA1 /* AutmFilteringViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutmFilteringViewCell.swift; path = AutmFitering/Classes/AutmFilteringViewCell.swift; sourceTree = "<group>"; };
-		7BBD68299C399E57FD18D67522EC49F9 /* AutmFitering.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutmFitering.xcconfig; sourceTree = "<group>"; };
-		7DA3B20A90E9E8510CA4B5293EF2BD38 /* Pods-AutmFitering_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutmFitering_Example-resources.sh"; sourceTree = "<group>"; };
-		84D5692D8B1BA3CDDFB73CFC6C200B70 /* AutmFitering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutmFitering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45F441AFEFDFDFB270EA75F3B8D15F3 /* AutmFitering.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AutmFitering.podspec; sourceTree = "<group>"; };
-		A5B78667C97143DF6C9F96B5C27FAE17 /* Pods-AutmFitering_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutmFitering_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A88E1B8041809CC5684969FC1A6BC4FA /* Pods-AutmFitering_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutmFitering_Example-umbrella.h"; sourceTree = "<group>"; };
-		A98158908648D69346E38C7576F4FC23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C36EBBF521C3900E749F203A916AF6F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C7C99C3B46B9CE7EBA437B17B72B4A15 /* Pods-AutmFitering_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutmFitering_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CDC37896C8D019A5AF908E6B9213D089 /* AutmFilteringViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutmFilteringViewController.swift; path = AutmFitering/Classes/AutmFilteringViewController.swift; sourceTree = "<group>"; };
-		EF4AECC374FEF396FF0F1FFBF2422FEA /* Pods-AutmFitering_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutmFitering_Example-dummy.m"; sourceTree = "<group>"; };
-		F5504C0B84C37DE8AB5E1C79C00D8190 /* AutmFitering.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutmFitering.modulemap; sourceTree = "<group>"; };
-		FAC467F640FDDA19731F06209D90828E /* AutmFilteringViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AutmFilteringViewCell.xib; path = AutmFitering/Classes/AutmFilteringViewCell.xib; sourceTree = "<group>"; };
+		13BE93C3EB24A014619B08D8890FF80A /* Pods-AutmFitering_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutmFitering_Example-dummy.m"; sourceTree = "<group>"; };
+		24F94AC1AEB87929A222B7FF9C15DCB1 /* AutmFilteringViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutmFilteringViewController.swift; path = AutmFitering/Classes/AutmFilteringViewController.swift; sourceTree = "<group>"; };
+		2A56EEDF238372D2967DBE164595D70E /* AutmFilteringViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutmFilteringViewCell.swift; path = AutmFitering/Classes/AutmFilteringViewCell.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A8E5168F01DE8C03673F6DB44C0A549 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		710734749113B49BA9E5D812727F6398 /* Pods-AutmFitering_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutmFitering_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A350C7612D0609E5E9BEBC1675D9390 /* AutmFitering.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutmFitering.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DFEF596899FA5E090F24E48AB7C6689 /* AutmFitering-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutmFitering-prefix.pch"; sourceTree = "<group>"; };
+		7E79A2F7E15CC230B52E2B62951DF239 /* AutmFitering-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutmFitering-Info.plist"; sourceTree = "<group>"; };
+		8E60A0B1F8DB92109B5E61915EF13FCF /* AutmFitering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutmFitering.framework; path = AutmFitering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F54C8C3ED3C0CF0B4C8B9A2FA97E025 /* AutmFitering.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutmFitering.modulemap; sourceTree = "<group>"; };
+		9BBA4B37D270ED9DED022411AB8334AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F46F8153A3DBE874B4DECD051E27FE4 /* Pods-AutmFitering_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutmFitering_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ACF24DF5BC550FC9091D892C0BD3D28D /* Pods-AutmFitering_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutmFitering_Example.modulemap"; sourceTree = "<group>"; };
+		AD67D0A950E903B7CC506424471F252F /* Pods-AutmFitering_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutmFitering_Example-Info.plist"; sourceTree = "<group>"; };
+		B467554AD8E1B24712EAF209F6061C59 /* AutmFilteringViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AutmFilteringViewCell.xib; path = AutmFitering/Classes/AutmFilteringViewCell.xib; sourceTree = "<group>"; };
+		B86EE8FA55392ADDB45650B0D02F3A3A /* AutmFilteringViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AutmFilteringViewController.xib; path = AutmFitering/Classes/AutmFilteringViewController.xib; sourceTree = "<group>"; };
+		B99BFC0FA7F103CD33B46B82C7F7BEDE /* AutmFitering.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutmFitering.xcconfig; sourceTree = "<group>"; };
+		C767E13DB5FB37D921D107C5885D4FC1 /* Pods-AutmFitering_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutmFitering_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8C92CDAE67E65AE89514D0B41A243E /* Pods-AutmFitering_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutmFitering_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8CDFEC5BF47E37488EEDE6ED346ED0C /* AutmFitering-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutmFitering-dummy.m"; sourceTree = "<group>"; };
+		E1BF3897B3494E45864F323DCF065B33 /* Pods-AutmFitering_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutmFitering_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE44D1E00C7F981B5471804A4CE952F0 /* Pods_AutmFitering_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutmFitering_Example.framework; path = "Pods-AutmFitering_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F256D3BC1603FB6C80C5A370803A2BFC /* AutmFitering-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutmFitering-umbrella.h"; sourceTree = "<group>"; };
+		F803A196BE9D526CF47444074BCEE8D4 /* Pods-AutmFitering_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutmFitering_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3463AA2E66E4BC4C9C6F46CEA2BD1A4B /* Frameworks */ = {
+		3661DAEBDEBF5C0F0D0AC0C210D62DB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA411CCA27C62CA6A6AE9D9B216563E7 /* Foundation.framework in Frameworks */,
+				6FB02EEE060BA902AEA192909060C5FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E39750682E65887FB8130CADB91A82E /* Frameworks */ = {
+		632DF718DF2187D9D70851D96D2310EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7B9D7A4D5538DE38AB6BBEA5FA52A3 /* Foundation.framework in Frameworks */,
+				2B8D617C8C5A420ACD8E6F644CFA8D83 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01AF5ED4D7825F10D478B54446B0497D /* Pod */ = {
+		04C1906CB0885090FA4AC9D11E7C3821 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A45F441AFEFDFDFB270EA75F3B8D15F3 /* AutmFitering.podspec */,
-				A98158908648D69346E38C7576F4FC23 /* LICENSE */,
-				C36EBBF521C3900E749F203A916AF6F2 /* README.md */,
+				7A350C7612D0609E5E9BEBC1675D9390 /* AutmFitering.podspec */,
+				9BBA4B37D270ED9DED022411AB8334AF /* LICENSE */,
+				5A8E5168F01DE8C03673F6DB44C0A549 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		0B83DA33CFCEF525515D3E0EFF67B5FD /* Development Pods */ = {
+		19C152BDCB2D9D869C43C61153707E46 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9A4AB1CD9EFD30DB1C5B9623029CB5D /* AutmFitering */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		464FACB85841A535AC212FEA1D61417D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD198E8CF989DC91B2BB9FBB699AA3C2 /* Pods-AutmFitering_Example */,
+				5B3B1CB91F00241DD0025074EB9D000D /* Pods-AutmFitering_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		513A518AB16FED5C81F422E3AD480132 /* Support Files */ = {
+		29A366BFA8D9005AB851014A03EE324C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F5504C0B84C37DE8AB5E1C79C00D8190 /* AutmFitering.modulemap */,
-				7BBD68299C399E57FD18D67522EC49F9 /* AutmFitering.xcconfig */,
-				59E8964C922EBEFC12B619B6EC51ECA7 /* AutmFitering-dummy.m */,
-				0577C50044D01A39AC303E286BBA5263 /* AutmFitering-prefix.pch */,
-				0FD82EAE086C592C4C638C7720E2C1A6 /* AutmFitering-umbrella.h */,
-				71FD4C726AD0850F796D4419A08B52D8 /* Info.plist */,
+				B467554AD8E1B24712EAF209F6061C59 /* AutmFilteringViewCell.xib */,
+				B86EE8FA55392ADDB45650B0D02F3A3A /* AutmFilteringViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		31F0458CC23B38B6E7AF38B844EBE908 /* AutmFitering */ = {
+			isa = PBXGroup;
+			children = (
+				2A56EEDF238372D2967DBE164595D70E /* AutmFilteringViewCell.swift */,
+				24F94AC1AEB87929A222B7FF9C15DCB1 /* AutmFilteringViewController.swift */,
+				04C1906CB0885090FA4AC9D11E7C3821 /* Pod */,
+				29A366BFA8D9005AB851014A03EE324C /* Resources */,
+				3511E80AEF7B256D3664FD705670969A /* Support Files */,
+			);
+			name = AutmFitering;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3511E80AEF7B256D3664FD705670969A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F54C8C3ED3C0CF0B4C8B9A2FA97E025 /* AutmFitering.modulemap */,
+				B99BFC0FA7F103CD33B46B82C7F7BEDE /* AutmFitering.xcconfig */,
+				D8CDFEC5BF47E37488EEDE6ED346ED0C /* AutmFitering-dummy.m */,
+				7E79A2F7E15CC230B52E2B62951DF239 /* AutmFitering-Info.plist */,
+				7DFEF596899FA5E090F24E48AB7C6689 /* AutmFitering-prefix.pch */,
+				F256D3BC1603FB6C80C5A370803A2BFC /* AutmFitering-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AutmFitering";
 			sourceTree = "<group>";
 		};
-		63E320CFD6F2019EAFE21FB794793CEB /* Products */ = {
+		3F7ED89BB56270A5F917C97DEFE9155C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84D5692D8B1BA3CDDFB73CFC6C200B70 /* AutmFitering.framework */,
-				1DCEB75B5474F3D98B7F35076AC95A57 /* Pods_AutmFitering_Example.framework */,
+				31F0458CC23B38B6E7AF38B844EBE908 /* AutmFitering */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9517112E4574001A9D6B7447DBD44044 /* Resources */ = {
+		5B3B1CB91F00241DD0025074EB9D000D /* Pods-AutmFitering_Example */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BD198E8CF989DC91B2BB9FBB699AA3C2 /* Pods-AutmFitering_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1D3AA46E0893DD0F32A7294F326E850F /* Info.plist */,
-				450116397B588B5CE639D68BB4018478 /* Pods-AutmFitering_Example.modulemap */,
-				C7C99C3B46B9CE7EBA437B17B72B4A15 /* Pods-AutmFitering_Example-acknowledgements.markdown */,
-				A5B78667C97143DF6C9F96B5C27FAE17 /* Pods-AutmFitering_Example-acknowledgements.plist */,
-				EF4AECC374FEF396FF0F1FFBF2422FEA /* Pods-AutmFitering_Example-dummy.m */,
-				2324502AE7F79ADF0B6791D4472A9376 /* Pods-AutmFitering_Example-frameworks.sh */,
-				7DA3B20A90E9E8510CA4B5293EF2BD38 /* Pods-AutmFitering_Example-resources.sh */,
-				A88E1B8041809CC5684969FC1A6BC4FA /* Pods-AutmFitering_Example-umbrella.h */,
-				7774EE47FAB9AB34707092BB233529E9 /* Pods-AutmFitering_Example.debug.xcconfig */,
-				557191D9F5ABDE1FE84A4DDE8F30D3F0 /* Pods-AutmFitering_Example.release.xcconfig */,
+				ACF24DF5BC550FC9091D892C0BD3D28D /* Pods-AutmFitering_Example.modulemap */,
+				710734749113B49BA9E5D812727F6398 /* Pods-AutmFitering_Example-acknowledgements.markdown */,
+				CA8C92CDAE67E65AE89514D0B41A243E /* Pods-AutmFitering_Example-acknowledgements.plist */,
+				13BE93C3EB24A014619B08D8890FF80A /* Pods-AutmFitering_Example-dummy.m */,
+				9F46F8153A3DBE874B4DECD051E27FE4 /* Pods-AutmFitering_Example-frameworks.sh */,
+				AD67D0A950E903B7CC506424471F252F /* Pods-AutmFitering_Example-Info.plist */,
+				F803A196BE9D526CF47444074BCEE8D4 /* Pods-AutmFitering_Example-umbrella.h */,
+				C767E13DB5FB37D921D107C5885D4FC1 /* Pods-AutmFitering_Example.debug.xcconfig */,
+				E1BF3897B3494E45864F323DCF065B33 /* Pods-AutmFitering_Example.release.xcconfig */,
 			);
 			name = "Pods-AutmFitering_Example";
 			path = "Target Support Files/Pods-AutmFitering_Example";
 			sourceTree = "<group>";
 		};
+		63E320CFD6F2019EAFE21FB794793CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E60A0B1F8DB92109B5E61915EF13FCF /* AutmFitering.framework */,
+				EE44D1E00C7F981B5471804A4CE952F0 /* Pods_AutmFitering_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				0B83DA33CFCEF525515D3E0EFF67B5FD /* Development Pods */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3F7ED89BB56270A5F917C97DEFE9155C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				63E320CFD6F2019EAFE21FB794793CEB /* Products */,
-				464FACB85841A535AC212FEA1D61417D /* Targets Support Files */,
+				19C152BDCB2D9D869C43C61153707E46 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F9A4AB1CD9EFD30DB1C5B9623029CB5D /* AutmFitering */ = {
-			isa = PBXGroup;
-			children = (
-				7AE220CCE903E388F3CC6976A5BEAEA1 /* AutmFilteringViewCell.swift */,
-				FAC467F640FDDA19731F06209D90828E /* AutmFilteringViewCell.xib */,
-				CDC37896C8D019A5AF908E6B9213D089 /* AutmFilteringViewController.swift */,
-				569C200BA3D4A630355665A481EF6204 /* AutmFilteringViewController.xib */,
-				01AF5ED4D7825F10D478B54446B0497D /* Pod */,
-				9517112E4574001A9D6B7447DBD44044 /* Resources */,
-				513A518AB16FED5C81F422E3AD480132 /* Support Files */,
-			);
-			name = AutmFitering;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5799BF421F94C13D6F006FE110AA5831 /* Headers */ = {
+		4A3F2F8D8DA24D7A28C8D46835B8199B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCC8E689327CF7F114F856F1AE09340 /* Pods-AutmFitering_Example-umbrella.h in Headers */,
+				A7017EFB415FF8219D38802AEF7DFE87 /* Pods-AutmFitering_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF1C2EF5E7FFAAF3B0F49D8C7C60BD85 /* Headers */ = {
+		AA79A9431C53FE69270CAFBC150A5A1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C1A6BCBB161103DDF5CDAC067A04B4 /* AutmFitering-umbrella.h in Headers */,
+				D8A42578A003DBD7723E08ED41B12303 /* AutmFitering-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D76319323AF5CA9C1DF9A448BC6D1CE3 /* AutmFitering */ = {
+		857F504A93EAE889FEBA7E63907E017B /* Pods-AutmFitering_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C1527C187628762C560BBDB67500547 /* Build configuration list for PBXNativeTarget "AutmFitering" */;
+			buildConfigurationList = B9E5BB88FA271B9EB4751AB19466F313 /* Build configuration list for PBXNativeTarget "Pods-AutmFitering_Example" */;
 			buildPhases = (
-				EF1C2EF5E7FFAAF3B0F49D8C7C60BD85 /* Headers */,
-				1D4020BBB0B1BF7E8B03996CDE017FA1 /* Sources */,
-				4E39750682E65887FB8130CADB91A82E /* Frameworks */,
-				8B17BD8042903C448D9E604677C30720 /* Resources */,
+				4A3F2F8D8DA24D7A28C8D46835B8199B /* Headers */,
+				EEBA8F2EA4E2058005755E8BB6576A51 /* Sources */,
+				632DF718DF2187D9D70851D96D2310EC /* Frameworks */,
+				2A2A776568E691FEB5654CAF9B07B4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759340FB6AA15CB5B5C9021BC7C78A22 /* PBXTargetDependency */,
+			);
+			name = "Pods-AutmFitering_Example";
+			productName = "Pods-AutmFitering_Example";
+			productReference = EE44D1E00C7F981B5471804A4CE952F0 /* Pods_AutmFitering_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEBD0D0506BA6B61E51E3662335FEF14 /* AutmFitering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6969A28AADC4EB4360269B9D32837A /* Build configuration list for PBXNativeTarget "AutmFitering" */;
+			buildPhases = (
+				AA79A9431C53FE69270CAFBC150A5A1F /* Headers */,
+				93E9737FBE2E592D8FBCD12789A6F182 /* Sources */,
+				3661DAEBDEBF5C0F0D0AC0C210D62DB6 /* Frameworks */,
+				FC319512A3F7109376D82110F01B7300 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -232,26 +249,7 @@
 			);
 			name = AutmFitering;
 			productName = AutmFitering;
-			productReference = 84D5692D8B1BA3CDDFB73CFC6C200B70 /* AutmFitering.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F192F52C3AA14C76DF3A596E3EEBC634 /* Pods-AutmFitering_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 097E6BC40E3A10C8789EE6AFF92A9858 /* Build configuration list for PBXNativeTarget "Pods-AutmFitering_Example" */;
-			buildPhases = (
-				5799BF421F94C13D6F006FE110AA5831 /* Headers */,
-				88DF0E218AED78ACF912740E03512870 /* Sources */,
-				3463AA2E66E4BC4C9C6F46CEA2BD1A4B /* Frameworks */,
-				8F7A7F4AC558791B948E347F37998733 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A47A49128AF33DED5C35CAC805499A51 /* PBXTargetDependency */,
-			);
-			name = "Pods-AutmFitering_Example";
-			productName = "Pods-AutmFitering_Example";
-			productReference = 1DCEB75B5474F3D98B7F35076AC95A57 /* Pods_AutmFitering_Example.framework */;
+			productReference = 8E60A0B1F8DB92109B5E61915EF13FCF /* AutmFitering.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -260,15 +258,14 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -276,197 +273,63 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D76319323AF5CA9C1DF9A448BC6D1CE3 /* AutmFitering */,
-				F192F52C3AA14C76DF3A596E3EEBC634 /* Pods-AutmFitering_Example */,
+				AEBD0D0506BA6B61E51E3662335FEF14 /* AutmFitering */,
+				857F504A93EAE889FEBA7E63907E017B /* Pods-AutmFitering_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B17BD8042903C448D9E604677C30720 /* Resources */ = {
+		2A2A776568E691FEB5654CAF9B07B4BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035B2A09FD5DE1A6DBB2A3ED8AB2365C /* AutmFilteringViewCell.xib in Resources */,
-				72250BF2CCFA6F8A1A584CABCBAB6210 /* AutmFilteringViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F7A7F4AC558791B948E347F37998733 /* Resources */ = {
+		FC319512A3F7109376D82110F01B7300 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4128D18BC7EE8BD3CCECCE26B2DBBD2E /* AutmFilteringViewCell.xib in Resources */,
+				15B5403B89D43D12C35CDE7277B7A223 /* AutmFilteringViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D4020BBB0B1BF7E8B03996CDE017FA1 /* Sources */ = {
+		93E9737FBE2E592D8FBCD12789A6F182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D97587B24DC25D81EBB47DB28EDAAA7 /* AutmFilteringViewCell.swift in Sources */,
-				06F193DC82AC0D9A5E9B6ACBF81757FE /* AutmFilteringViewController.swift in Sources */,
-				E8D92F83809AB774F66FACC829897B3C /* AutmFitering-dummy.m in Sources */,
+				E3A2C221ECA0B95F2FE04C9AEA35EA90 /* AutmFilteringViewCell.swift in Sources */,
+				C6DEB9C67503857EEE7FFA0804AAD07F /* AutmFilteringViewController.swift in Sources */,
+				7DD15CDB332F33A7E1226376B12DFB99 /* AutmFitering-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88DF0E218AED78ACF912740E03512870 /* Sources */ = {
+		EEBA8F2EA4E2058005755E8BB6576A51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71976F556A4EB1E75BA08049E534D07 /* Pods-AutmFitering_Example-dummy.m in Sources */,
+				39377E6C7DFE1CF84288F4933D3DD0D8 /* Pods-AutmFitering_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A47A49128AF33DED5C35CAC805499A51 /* PBXTargetDependency */ = {
+		759340FB6AA15CB5B5C9021BC7C78A22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AutmFitering;
-			target = D76319323AF5CA9C1DF9A448BC6D1CE3 /* AutmFitering */;
-			targetProxy = 8EB520D5A98BE8F4BDEF0BD3EE5265AD /* PBXContainerItemProxy */;
+			target = AEBD0D0506BA6B61E51E3662335FEF14 /* AutmFitering */;
+			targetProxy = 90189B844DC72DDF102CFD8E4255FF01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10244E75675FAEF5A26B09A51567CEEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 557191D9F5ABDE1FE84A4DDE8F30D3F0 /* Pods-AutmFitering_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutmFitering_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4551F912E5D47A1BD4A8A4076AAA7D06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BBD68299C399E57FD18D67522EC49F9 /* AutmFitering.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AutmFitering/AutmFitering-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutmFitering/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutmFitering/AutmFitering.modulemap";
-				PRODUCT_MODULE_NAME = AutmFitering;
-				PRODUCT_NAME = AutmFitering;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F8B4B06659CA29C486AC00A41C49BF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BBD68299C399E57FD18D67522EC49F9 /* AutmFitering.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AutmFitering/AutmFitering-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutmFitering/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutmFitering/AutmFitering.modulemap";
-				PRODUCT_MODULE_NAME = AutmFitering;
-				PRODUCT_NAME = AutmFitering;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		77F3E67488E4D81C0F91C0A1F4525760 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7774EE47FAB9AB34707092BB233529E9 /* Pods-AutmFitering_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutmFitering_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		984B99C322F45D243D991CA6A63EF1F1 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -498,8 +361,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -527,12 +388,78 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B7FD5B0ACE9286FFDADF4ACE2322AF4A /* Release */ = {
+		6B90DFF31E02538AD8F9F3EEBB38601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C767E13DB5FB37D921D107C5885D4FC1 /* Pods-AutmFitering_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		992C45F374D4ADDB62839921266553B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99BFC0FA7F103CD33B46B82C7F7BEDE /* AutmFitering.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutmFitering/AutmFitering-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutmFitering/AutmFitering-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutmFitering/AutmFitering.modulemap";
+				PRODUCT_MODULE_NAME = AutmFitering;
+				PRODUCT_NAME = AutmFitering;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -564,8 +491,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -587,38 +512,107 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D656492C9A418C18C95DAA207EDF627A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99BFC0FA7F103CD33B46B82C7F7BEDE /* AutmFitering.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutmFitering/AutmFitering-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutmFitering/AutmFitering-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutmFitering/AutmFitering.modulemap";
+				PRODUCT_MODULE_NAME = AutmFitering;
+				PRODUCT_NAME = AutmFitering;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0AC2AE0BBAD879F7B608969E04454FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BF3897B3494E45864F323DCF065B33 /* Pods-AutmFitering_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutmFitering_Example/Pods-AutmFitering_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		097E6BC40E3A10C8789EE6AFF92A9858 /* Build configuration list for PBXNativeTarget "Pods-AutmFitering_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77F3E67488E4D81C0F91C0A1F4525760 /* Debug */,
-				10244E75675FAEF5A26B09A51567CEEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				984B99C322F45D243D991CA6A63EF1F1 /* Debug */,
-				B7FD5B0ACE9286FFDADF4ACE2322AF4A /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C1527C187628762C560BBDB67500547 /* Build configuration list for PBXNativeTarget "AutmFitering" */ = {
+		B9E5BB88FA271B9EB4751AB19466F313 /* Build configuration list for PBXNativeTarget "Pods-AutmFitering_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F8B4B06659CA29C486AC00A41C49BF0 /* Debug */,
-				4551F912E5D47A1BD4A8A4076AAA7D06 /* Release */,
+				6B90DFF31E02538AD8F9F3EEBB38601B /* Debug */,
+				E0AC2AE0BBAD879F7B608969E04454FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6969A28AADC4EB4360269B9D32837A /* Build configuration list for PBXNativeTarget "AutmFitering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992C45F374D4ADDB62839921266553B6 /* Debug */,
+				D656492C9A418C18C95DAA207EDF627A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

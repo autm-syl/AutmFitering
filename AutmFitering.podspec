@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary          = 'This is image filtering library like Instagram, this is a Sharaku library that was updated to swift 5.0'
 
   s.description      = <<-DESC
-AutmFiltering is a update version of Sharaku for swift 5.0.
+AutmFiltering is a update version of Sharaku for swift 5.0. Library filtering image like Instagrams, using CIFilter. Thank Sharaku!
                        DESC
 
   s.homepage         = 'https://github.com/autm-syl/AutmFitering'
@@ -17,6 +17,6 @@ AutmFiltering is a update version of Sharaku for swift 5.0.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AutmFitering/Classes/**/*'
-  s.resources = ['AutmFitering/Classes/**/*.xib', 'AutmFitering/**/*.xcassets']
+  s.source_files = 'AutmFitering/Classes/**/*.swift'
+  s.resources = ['AutmFitering/Classes/**/*.xib']
 end

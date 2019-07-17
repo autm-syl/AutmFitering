@@ -65,13 +65,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 extension ViewController:AutmFilteringDelegate {
     func autmFilteringImageDidFilter(image: UIImage) {
-        //
-        self.imageView.image = image;
+        // image output
     }
-    
     func autmFilteringDidCancel() {
-        //
+        //cancel
     }
-    
-    
 }
